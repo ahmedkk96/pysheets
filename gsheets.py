@@ -9,6 +9,9 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 
 class Creds:
+    """
+    Class to manage credentials.
+    """
     def __init__(self):
         self.creds = None
 
